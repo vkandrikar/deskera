@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.container-fluid {
+  /* padding-left: 0.15rem !important;
+  padding-right: 0.15rem !important; */
+}
+
+.leftGap {
+  margin-left: 28px;
+}
+
+#root {
+  font-size: 16px;
+  background-color: #fafbfd;
+  min-width: 1200px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.removePL {
+  padding-left: 0px;
+}
+
+.screenCont {
+  padding: 12px 0px;
+}
+
+@media only screen and (max-width: 1575px) {
+  #root {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  #root {
+    font-size: 12px;
+  }
+}

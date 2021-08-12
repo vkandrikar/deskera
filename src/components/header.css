@@ -1,0 +1,40 @@
+.searchBox {
+  background-color: #f3f3f3;
+  padding: 4px 10px;
+  margin: 5px 0px;
+  display: block;
+}
+
+.searchBox input {
+  width:90%;
+  padding: 6px 8px;
+  margin-left: 10px;
+  border: none;
+  background: #f3f3f3;
+}
+
+.separator {
+  border-right: 1px solid #c7c5c5;
+}
+
+.navbar-expand {
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 0px;
+}
+
+.dropdown-toggle {
+  color: black !important;
+}
+
+.dropdown-menu {
+  font-size: 12px;
+  min-width: 0px;
+  border-radius: 0px !important;
+  right: 0;
+}

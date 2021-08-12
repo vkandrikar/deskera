@@ -1,0 +1,113 @@
+thead th {
+  height: 45px;
+}
+
+tbody tr {
+  vertical-align: middle;
+}
+
+.tableStrip {
+  box-shadow: lightgrey 0px 3px 6px 0px;
+  background-color: white;
+  /*box-shadow: 0px 0 0px 0px rgb(216 216 216 / 80%), 0px 0 6px -2px rgb(136 136 136 / 80%);*/
+}
+
+td button {
+  background-color: #e2214d !important;
+  color: white !important;
+  padding: 3px 10px !important;
+  border: none !important;
+  border-radius: 0px !important
+}
+
+.table>:not(caption)>*>* {
+  padding: 10px 0px 10px 20px;
+}
+
+.table-responsive-md {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+table {
+  margin-bottom: 0px !important;
+}
+
+.Failed td:first-child {
+  color: #e2214d;
+  border-left: 3px solid #ad2442 !important;
+}
+
+.Failed td:first-child span {
+  color: #ad2442;
+}
+
+.Successful td:first-child {
+  color: #37d190;
+}
+
+.Running td:first-child {
+  color: #0a1459;
+}
+
+.tableStrip td:first-child {
+  border-left: 3px solid transparent;
+}
+
+th:nth-child(1) {
+  min-width: 120px;
+}
+
+th:nth-child(2) {
+  min-width: 150px;
+  padding: 0px !important;
+}
+
+th:nth-child(3) {
+  width: 25%;
+}
+
+th:nth-child(4) {
+  width: 15%;
+}
+
+td:nth-child(3) {
+  font-weight: bold;
+}
+
+td:nth-child(n+5) {
+  color: grey;
+}
+
+th {
+  font-weight: 100 !important;
+  color: grey !important;
+  margin-top: 20px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+thead {
+  border-bottom: 2px solid #e6e6e6;
+}
+
+thead div {
+  cursor: pointer;
+  background-color: #f3f3f3;
+  color: black;
+  padding: 5px 10px;
+  width: 88%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1750px) {
+  th:nth-child(3) {
+    width: 19%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  th:nth-child(3) {
+    width: 15%;
+  }
+}

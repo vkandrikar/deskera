@@ -1,0 +1,29 @@
+.strip {
+  box-shadow: lightgrey 0px 0px 6px 0px;
+  background-color: white;
+}
+
+.dataFilter {
+  box-shadow: lightgrey 0px 3px 6px 0px;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.filterMenu button.active, .filterMenu button:hover, .historyCont button:hover {
+  border: 1px solid black;
+}
+
+.filterMenu button, .historyCont button {
+  padding: 4px 16px;
+  background-color: white;
+  border: 1px solid #f3f3f3;
+}
+
+.Failed {
+  background-color: #fdf7f7;
+}
+
+.highliter {
+  color: blue !important;
+}
+

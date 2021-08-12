@@ -1,0 +1,13 @@
+.favItem {
+  /* white-space: nowrap;
+  width: 82%; 
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  white-space: nowrap;
+  width: 82%; 
+  margin-right: 0px !important;
+}
+
+/* #favCont .svg-inline--fa {
+  vertical-align: 3px !important;
+} */

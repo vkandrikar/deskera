@@ -1,0 +1,22 @@
+.nav {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+a div, #favCont div {
+  color: grey; 
+  border-left: 3px solid transparent;
+  padding-left: 25px;
+}
+
+.nav a:hover div, .nav a.active div {
+  color: #0a1459;
+  border-left: 3px solid #0a1459;
+}
+
+.lable {
+  color: grey;
+}
